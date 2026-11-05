@@ -1,0 +1,11 @@
+#Bar Chart
+
+import matplotlib.pyplot as plt
+
+months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+sales = ['250', '300', '400', '550', '600', '100']
+plt.bar(months, sales, color = 'purple')
+plt.title('Monthly Sales')
+plt.xlabel('Month')
+plt.ylabel('Sales')
+plt.show()
